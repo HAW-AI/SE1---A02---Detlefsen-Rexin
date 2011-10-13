@@ -1,35 +1,48 @@
-Strandkorb
+### Strandkorb
+```
 + Farbe Korb
 + Farbe Bezug
+```
 
-
-Strand
+### Strand
+```
 * Strandkorb[]
 * Preis[]
+```
 
-Preis
+### Preis
+´´´
 * Strand
 * Saison
 + Wert
+```
 
-Saison
+### Saison
+```
 * Preis[]
 + Begin
 + Ende
+```
 
-Mieter
+### Mieter
+```
 * Vermietung[]
 + Kontodaten
+```
 
 
-Vermietung
+### Vermietung
+```
 * Strandkorb
 * Mieter
 + Kalenderwoche
 + Jahr
+```
 
 
-=== Legende
+```=== Legende
 Model
 * Referenz
 + Attribut
+```
+
